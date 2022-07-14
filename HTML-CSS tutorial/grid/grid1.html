@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>GRID</title>
+        <style>
+            body{
+                color: #555;
+                max-width: 900px;
+                margin: 0 auto;
+                text-align: center;
+
+            }
+            #content{
+                display: grid;
+                /* grid-template-columns: 33.3% 33.3% 33.3%;
+                grid-template-columns: 30% 20% 50%;
+                grid-template-columns: 1fr 2fr 1fr; */
+                grid-template-columns: repeat(3,1fr);
+                /* grid-auto-rows: minmax(200px , auto) ; */
+                grid-template-rows: repeat(3,minmax(200px,auto));
+                grid-gap:10px;
+                width: 100%;
+                margin: 0 auto;
+            }
+            #content div{
+                background: mediumseagreen;
+                padding: 30px;
+            }
+            #content div:nth-child(even){
+                background: dodgerblue;
+            }
+        </style>
+    </head>
+    <body>
+        
+        <div id="content">
+
+            <div>1</div>
+            <div>2</div>
+            <div>I can't stop this feeling Deep inside of me Girl, you just don't realize What you do to me When you hold me In your arms so tight You let me know Everything's alright I can't stop this feeling Deep inside of me Girl, you just don't realize What you do to me When you hold me In your arms so tight You let me know Everything's alright</div>
+            <div>4</div>
+            <div>5</div>
+            <div>6</div> 
+            <div>7</div>
+            <div>8</div>
+            <div>9</div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,49 @@
+/* p.error{
+    color: teal;
+}
+p.frodo{
+    color:#8cd18c
+}
+p.frodo.sam{
+    border: 1px dashed #8cd18c
+}
+#gandalf{
+    background-color: #ebebeb;
+    padding:20px;
+} */
+/* div .error{
+    color: purple;
+} */
+/* a[href]{
+    background-color: yellow;
+} */
+/* a[href="www.google.com"]{
+    background-color: yellow; 
+    color:black;
+    text-decoration:none;
+    font-weight:bold;
+    text-transform:uppercase;
+} */
+
+/* a[href*="book"]{
+    background-color: aliceblue;
+    color: #925d0d;
+    font-weight: bold;
+    text-transform: capitalize;
+} */
+div{
+    color:lightcoral;
+    border: 1px solid grey;
+    margin: 40px;
+    font-weight: bold;
+}
+div p{
+    border:inherit;
+    margin:inherit; 
+    color:chartreuse;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+p{
+    color:aquamarine;
+  
+}
