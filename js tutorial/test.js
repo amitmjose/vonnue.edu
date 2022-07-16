@@ -485,3 +485,70 @@
 //     alert("you hovered me");
 // }
 
+
+
+// //window onload - when <script> is in <head>
+
+// window.onload = function(){
+
+//     //js codes
+
+// }
+
+
+//      //OR
+
+
+// function setUpEvents(){
+
+//     //js codes
+
+// }
+
+// window.onload = function(){
+
+//     setUpEvents();
+
+// }
+
+
+
+
+// JS timers
+
+
+var myMessage = document.getElementById("tuto");
+
+function showMessage(){
+
+    myMessage.className = "show";
+
+}
+
+setTimeout(showMessage, 3000);
+
+
+
+var colourChanger = document.getElementById("jsh");
+var colours = ["violet" , "indigo" , "blue" , "green" , "yellow" , "orange" , "red"];
+var counter = 0;
+
+function changeColour(){
+
+    if (counter >= colours.length){
+        counter = 0;
+    }
+
+    colourChanger.style.background = colours[counter];
+    counter++;
+
+}
+
+var myTimer = setInterval(changeColour , 1000);
+
+colourChanger.onclick = function(){
+
+    clearInterval(myTimer);
+    colourChanger.innerHTML = "mathi kalicahth";
+    
+};
