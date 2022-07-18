@@ -19,9 +19,6 @@ myForm.name.onblur = function(){
 };
 
 
-
-sughallce'
-
 var message = document.getElementById("message");
 
 myForm.onsubmit = function(){
